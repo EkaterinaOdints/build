@@ -1,0 +1,21 @@
+{
+  "tagname-lowercase": true,
+  "attr-lowercase": true,
+  "attr-value-double-quotes": true,
+  "attr-no-unnecessary-whitespace": true,
+  "attr-whitespace": true,
+  "button-type-require": true,
+  "doctype-first": true,
+  "tag-pair": true,
+  "tag-no-obsolete": true,
+  "tagname-specialchars": true,
+  "id-unique": true,
+  "src-not-empty": true,
+  "attr-no-duplication": true,
+  "title-require": true,
+  "alt-require": true,
+  "id-class-value": "dash",
+  "style-disabled": true,
+  "inline-style-disabled": true,
+  "attr-unsafe-chars": true
+}

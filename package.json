@@ -1,0 +1,33 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint:htmlhint": "htmlhint \"./**/*.html\"",
+    "lint": "npm run lint:htmlhint",
+    "convert-rastr": "node convert-rastr.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.89.2",
+    "vite": "^7.0.5",
+    "vite-plugin-image-optimizer": "^2.0.2"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.10.0",
+    "@eslint/js": "^9.31.0",
+    "@eslint/json": "^0.13.0",
+    "cli-progress": "^3.12.0",
+    "glob": "^11.0.3",
+    "globals": "^16.3.0",
+    "htmlhint": "^1.6.3",
+    "sharp": "^0.34.3"
+  }
+}
