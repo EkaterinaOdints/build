@@ -14,7 +14,6 @@
   "attr-no-duplication": true,
   "title-require": true,
   "alt-require": true,
-  "id-class-value": "dash",
   "style-disabled": true,
   "inline-style-disabled": true,
   "attr-unsafe-chars": true
