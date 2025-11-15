@@ -55,6 +55,10 @@ export default defineConfig({
           src: "fonts/**/*",
           dest: "assets/fonts",
         },
+        {
+          src: "favicon/**/*",
+          dest: "assets/favicon",
+        },
       ],
     }),
   ],
